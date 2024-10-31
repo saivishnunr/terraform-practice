@@ -8,9 +8,9 @@ resource "aws_instance" "web02" {
 }
 
 output "ip_addr" {
-  value = aws_instance.web01.public_ip
+  value = aws_instance.web02.public_ip
 }
 
 output "private_ip_addr" {
-  value = aws_instance.web01.private_ip
+  value = aws_instance.web02.private_ip
 }
